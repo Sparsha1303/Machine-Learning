@@ -46,3 +46,30 @@ To check remote url
 ```
 git remote -v
 ```
+1.HEROKU_EMAIL = sparsha.usa@gmail.com
+2.HEROKU_API_KEY = 01440ec7-4f8d-4cba-aedd-05a831c8eba7
+3.HEROKU_APP_NAME =
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+To list docker image
+```
+docker images
+```
+
+Run docker images
+
+```
+
+docker run -p 5000:5000 -e PORT=5000  9b91273a9c90
+```
+To check running container
+```
+docker ps
+```
+To stop docker container
+```
+docker stop <container_id>
+```
