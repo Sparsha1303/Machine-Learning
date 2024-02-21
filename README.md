@@ -46,9 +46,9 @@ To check remote url
 ```
 git remote -v
 ```
-1.HEROKU_EMAIL = sparsha.usa@gmail.com
-2.HEROKU_API_KEY = <YOUR_API_KEY>
-3.HEROKU_APP_NAME = ml-project-regression
+1.HEROKU_EMAIL = sparsha.usa@gmail.com \n
+2.HEROKU_API_KEY = <YOUR_API_KEY>\n
+3.HEROKU_APP_NAME = ml-project-regression\n
 
 BUILD DOCKER IMAGE
 ```
