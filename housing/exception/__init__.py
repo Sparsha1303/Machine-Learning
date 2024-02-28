@@ -12,3 +12,7 @@ class HousingException(Exception):
         file_name = exec_tb.tb_frame.f_code.co_filename
         error_message = f"An error occurred in file: [{file_name}] at line number: [{line_number}] and the error message: [{error_message}]"
         return error_message
+    def __str__(self) -> str:
+        return self.error_message
+    def __repr__(self) -> str:
+        return HousingException.__name__.str()
